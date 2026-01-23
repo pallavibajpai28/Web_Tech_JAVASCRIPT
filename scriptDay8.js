@@ -89,3 +89,4 @@ let totalProfit = onlyApples.reduce((acc, fruit) => {
 console.log("Total Profit from Apples : ",totalProfit);
 
 
+
