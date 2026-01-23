@@ -1,4 +1,4 @@
-Day 2
+// Day 2
 
 //~ Declaration types -var
 
@@ -39,7 +39,7 @@ console.log(d);
 
 
 
-~ Type Conversion
+// ~ Type Conversion
 
 console.log("hello" + 10);
 console.log("hello"+"string");
