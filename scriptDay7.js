@@ -2,6 +2,27 @@
 
 
 
+//~ String
+
+let name="abcd"
+console.log(name)
+console.log(typeof name)
+
+let name1='xyz'
+console.log(name1)
+
+console.log('My name is "cvbgh"')
+
+console.log(`my name is ${name1} my age is ${23+6}`)
+
+let name3 = new String("yellow")
+console.log(name3);
+console.log(typeof name3)
+
+
+
+
+
 //^ STRING METHODS
 
 //! length() - returns the length of the string
@@ -63,3 +84,4 @@ console.log(word.includes("Tech")); // true
 
 
 //! 
+
