@@ -3,25 +3,25 @@
 //^ BOM (Browser Object Model) : it provides methods to interact with the browser window and control browser features like alerts, prompts, confirmations, and navigation.
 //^ BOM (Browser Object Model) Methods 
 
-// //! 1. prompt() : This method is used to display a dialog box that prompts the user for input. It returns the input value as a string.
+//! 1. prompt() : This method is used to display a dialog box that prompts the user for input. It returns the input value as a string.
 
-// let age = parseInt(prompt("Please enter your age:"));
+let age = parseInt(prompt("Please enter your age:"));
 
-// //! 2. alert() : This method is used to display an alert box with a specified message and an OK button.
+//! 2. alert() : This method is used to display an alert box with a specified message and an OK button.
 
-// function voting() {
-//     if (age >= 18) {
-//         alert("You are eligible to vote.");
-//     } else {
-//         alert("You are not eligible to vote.");
-//     }
-// }
-// voting();
+function voting() {
+    if (age >= 18) {
+        alert("You are eligible to vote.");
+    } else {
+        alert("You are not eligible to vote.");
+    }
+}
+voting();
 
-// //! 3. confirm() : This method is used to display a dialog box with a specified message, along with OK and Cancel buttons. It returns true if the user clicks OK, and false if the user clicks Cancel.
+//! 3. confirm() : This method is used to display a dialog box with a specified message, along with OK and Cancel buttons. It returns true if the user clicks OK, and false if the user clicks Cancel.
 
-// let file = window.confirm("Are you sure to delete this content?");
-// console.log(file); // true or false based on user action
+let file = window.confirm("Are you sure to delete this content?");
+console.log(file); // true or false based on user action
 
 
 
@@ -64,4 +64,5 @@ console.log(document.forms); // HTMLCollection of all form elements in the docum
 
 //! 6. body : This property returns the body element of the document.
 console.log(document.body); // HTMLBodyElement representing the body of the document
+
                             // output : <body>...</body>
